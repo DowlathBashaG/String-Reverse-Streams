@@ -1,11 +1,11 @@
 # String-Reverse-Streams
 
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+	import java.util.List;
+	import java.util.stream.Collectors;
+	import java.util.stream.IntStream;
 
-public class ReverseStringUsingPureStreams {
-    public static void main(String[] args) {
+	public class ReverseStringUsingPureStreams {
+    	public static void main(String[] args) {
         String input = "HelloWorld";
 
         String reversed = IntStream.range(0, input.length())    // Create a stream of indexes
