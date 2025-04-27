@@ -15,8 +15,8 @@
 
         System.out.println("Original: " + input);
         System.out.println("Reversed: " + reversed);
-    }
-}
+  	  }
+	}
 
 
 Step								Explanation
