@@ -19,12 +19,12 @@
 	}
 
 
-Step								Explanation
+	Step								Explanation
 
-IntStream.range(0, input.length())				Stream of integers from 0 to length-1
-mapToObj(i -> input.charAt(length - 1 - i))			Fetch characters from end towards beginning
-map(String::valueOf)						Convert each character to String
-collect(Collectors.joining())					Join all characters together
+	IntStream.range(0, input.length())				Stream of integers from 0 to length-1
+	mapToObj(i -> input.charAt(length - 1 - i))			Fetch characters from end towards beginning
+	map(String::valueOf)						Convert each character to String
+	collect(Collectors.joining())					Join all characters together
 
 
 ✅ Reverse a String using pure Streams
